@@ -1,0 +1,100 @@
+body {
+    font-family: 'Panton', sans-serif;
+    background-color: #18181b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 700px;
+    padding: 16px;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.main {
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+html {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.nickname h1 {
+    display: flex;
+    font-size: 50px;
+    color: white;
+}
+
+.nickname h1, .nickname p {
+    margin: 4px;
+}
+
+.nickname p {
+    display: flex;
+    font-size: 15px;
+    color: #b6b6b6;
+}
+
+.social {
+    margin: 4px;
+    display: flex;
+    color: #b6b6b6;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin: 4px;
+}
+
+.row {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none !important; 
+    transition: color 0.2s;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.socials {
+    margin-left: auto;
+    margin-top: 11px;
+}
+
+div {
+    display: block;
+}
+
+.footer {
+    font-size: 10px;
+    color: #868686;
+    opacity: .3;
+    text-decoration: none;
+}
+
+.footerlink {
+    text-decoration: none !important;
+    color: #868686;
+}
