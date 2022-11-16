@@ -7,6 +7,10 @@
 
 html {
     background-color: black;
+    @font-face {
+        font-family: 'Wild World';
+        src: url(fonts/WildWorldBOLD.woff);
+    }
     font-family: 'Wild World';
     font-weight: bold;
     font-style: normal;
